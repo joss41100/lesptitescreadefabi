@@ -465,7 +465,7 @@ section {
     }
 
 
-    /* header media query starts */
+    /* header media query max 820px starts */
 
     .header .navbar {
         position: absolute;
@@ -520,270 +520,55 @@ section {
         font-size: 2.5rem;
     }
 
-    /* header media query starts */
-    /* accueil media query starts */
+    /* header media query max 820px ends */
+    /* accueil media query max 820px starts */
+    .accueil .row h3 {
+        font-size: 2.6rem;
+        word-spacing: 0;
+        letter-spacing: 0;
+        padding-top: 10rem;
+    }
+
+    .accueil .accueilback img {
+        padding: 0;
+        width: 70vw;
+
+    }
 
     .accueil {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-
-    .accueil .content {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .accueil .content .usvtitle {
-        display: none;
-    }
-
-    .accueil .content .labels {
-        width: 100%;
-        display: flex;
-        align-items: center;
         justify-content: space-evenly;
-        padding: 2rem 0;
     }
 
-    .accueil .content img {
-        width: 80%;
-        height: auto;
-    }
+    /* accueil media query max 820px ends */
+    /* logo size query max 820px starts */
 
-    .background {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .background img {
-        width: 100%;
-        height: 100%;
-    }
-
-    /* accueil media query ends */
-    /* broderies media query starts */
-    .broderies {
-        min-height: 100vh;
-        background-image: url('images/images/logocreadefabi.jpeg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: #fff;
-        padding: 10% 0;
-        overflow: hidden;
-    }
-
-    .broderies .heading span {
-        font-size: 2rem;
-    }
-
-    .broderies h1 {
-        font-size: 2rem;
-    }
-
-    .broderies span {
-        color: var(--main-color);
-        text-transform: uppercase;
-    }
-
-    .containerbroderies {
-        max-width: 100vw;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
-    .containerbroderies h2 {
-        text-align: center;
-        font-size: .5rem;
-        margin-bottom: 20px;
-    }
-
-    .containerbroderies table {
-        position: relative;
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies table,
-    th,
-    td {
-        font-size: 1rem;
-        border: 1px solid #fff;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies img {
-        max-width: 20px;
-        height: auto;
-    }
-
-    /* broderies media query ends */
-    /* les professionnels media query starts */
-    .lesequipes {
-        max-width: 100vw;
-    }
-
-    .lesequipes .heading span {
-        font-size: 2rem;
-    }
-
-    .lesequipes h1 {
-        font-size: 2rem;
-    }
-
-    .lesequipes .box-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        gap: 1.5rem;
-    }
-
-    .lesequipes .box-container .box {
-        text-align: center;
-        border: var(--border);
-
-    }
-
-    .lesequipes .box-container .box img {
-        width: 100%;
-        height: auto;
-    }
-
-    .lesequipes .box-container .box img:hover {
-        width: 100%;
-        height: auto;
-        align-self: center;
-    }
-
-    /* les professionnels media query ends */
-    /* agenda media query starts */
-    .agenda {
-        max-width: 100%;
-    }
-
-    .agenda .heading span {
-        font-size: 2rem;
-    }
-
-    .agenda h1 {
-        font-size: 2rem;
-    }
-
-    .agenda .box-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .agenda .box-container .box {
-        text-align: center;
-        border: var(--border);
-        margin: 2rem;
-    }
-
-    .custom-padding {
-        padding: 10px;
-    }
-
-    .agenda {
-        width: 100vw;
-    }
-
-    .agenda .box-container .box .content h3 {
-        font-size: 1.5rem;
-    }
-
-    .agenda .box-container .box .image {
-        padding: 2.5rem 0;
-    }
-
-    .agenda .box-container .box .image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .agenda .box-container .box .content .division {
-        color: #fff;
-        font-size: 2.5rem;
-    }
-
-    .agenda .box-container .box .content .division span {
-        text-decoration: line-through;
-        font-weight: lighter;
-        font-size: 1.5rem;
-        color: white;
-    }
-
-    /* agenda media query ends */
-    /* convocations media query starts */
-    .container-convocations .btncontainer .btneq {
-        width: 12%;
-        height: 5%;
-        padding: 1%;
-        margin: 2%;
-        color: white;
-        font-size: 1rem;
-        text-align: center;
-        border: 2px solid white;
-        border-radius: 50px;
-    }
-
-    .tableconvocs {
-        margin-top: 0;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(23, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        text-align: center;
-        font-size: 1.5rem;
-        color: white;
-        max-width: 100vw;
-        align-items: center;
-        background-image: url(images/logocreadefabi.jpeg);
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: auto;
-
-
-    }
-
-
-    /* convocations media query ends */
-
-    /* clients media query starts
-    .clients .heading span {
-        font-size: 2rem;
-    }
-
-    .clients h1 {
-        font-size: 2rem;
-    }
-
-    .logopart {
-        width: 7rem;
-        padding: 5px;
-    } */
     .logos {
-        min-height: 10vh;
+        max-width: 100vw;
         overflow: hidden;
-        padding: 15% 0;
         white-space: nowrap;
         position: relative;
+    }
+
+
+    .logos-slide {
+        display: inline-block;
+        animation: 200s slide infinite linear;
+    }
+
+    .broderie .logos .logos-slide img {
+        height: 100%;
+        padding: 0;
     }
 
     .logos:before,
     .logos:after {
         position: absolute;
         top: 0;
-        width: 250px;
+        width: 500px;
         height: 100%;
         content: "";
         z-index: 2;
@@ -791,22 +576,83 @@ section {
 
 
 
+    /* logo size query max 820px starts */
+
+    /* broderies media max 820px query starts */
 
 
-    .logos-slide {
-        display: inline-block;
-        animation: 35s slide infinite linear;
+    .broderies {
+        max-width: 100vw;
+        padding: 10% 0;
+        overflow: hidden;
     }
 
-    .logos-slide img {
-        height: 10vh;
-        margin: 0 20px;
+    .broderies .heading span {
+        font-size: 2rem;
     }
 
 
-    /* clients media query ends */
+    .broderies span {
+        color: var(--main-color);
+        text-transform: uppercase;
+    }
 
-    /* nous contacter media query starts */
+    /* broderies media query max 820px ends */
+    /* couture media query max 820px starts */
+    .couture {
+        max-width: 100vw;
+        padding: 10% 0;
+        overflow: hidden;
+    }
+
+    .couture .heading span {
+        font-size: 2rem;
+    }
+
+
+    .couture span {
+        color: var(--main-color);
+        text-transform: uppercase;
+    }
+
+    /* couture media query max 820px ends */
+    /* les professionnels media query max 820px starts */
+    .lesprofessionnels {
+        max-width: 100vw;
+        padding: 10% 0;
+        overflow: hidden;
+    }
+
+    .lesprofessionnels .heading span {
+        font-size: 2rem;
+    }
+
+    /* les professionnels media query max 820px ends */
+    /* matériel canin  media query max 820px starts */
+    .canins {
+        max-width: 100vw;
+        padding: 10% 0;
+        overflow: hidden;
+    }
+
+    .canins .heading span {
+        font-size: 2rem;
+    }
+
+    /* matériel canin  media query max 820px ends */
+    /* clients media query max 820px starts */
+    .clients {
+        max-width: 100vw;
+        padding: 10% 0;
+        overflow: hidden;
+    }
+
+    .clients .heading span {
+        font-size: 2rem;
+    }
+
+    /* clients media query max 820px ends */
+    /* contact media query max 820px starts */
     .contact .heading span {
         font-size: 2rem;
     }
@@ -820,302 +666,230 @@ section {
         height: 300px;
     }
 
-    #maillettes {
-        width: 80%;
-        height: 300px;
+    /* contact media query max 820px ends */
+    /* Media Query max 820px ends */
+
+    /* Media Query min 821px max 1240px starts */
+
+
+    @media only screen and (min-width:821px) and (max-width:1240px) {
+        #menu-btn {
+            display: inline-block;
+        }
+
+
+        /* header media query min 821px max 1240px starts */
+
+        .header .navbar {
+            position: absolute;
+            top: 100%;
+            right: -100%;
+            background: #fff;
+            width: 30rem;
+            height: calc(100vh - 9.5rem);
+        }
+
+        .header .navbar.active {
+            right: 0;
+        }
+
+        .header .navbar a {
+            color: var(--black);
+            display: block;
+            margin: 1.5rem;
+            padding: .5rem;
+            font-size: 1.5rem;
+        }
+
+
+        .header .logo img {
+            width: 18rem;
+            height: auto;
+        }
+
+        .header .social a {
+            padding: 0;
+            margin: 0;
+            height: 2.5rem;
+            width: 2.5rem;
+            line-height: 2.5rem;
+            font-size: 1rem;
+        }
+
+        .header .icons {
+            width: 10rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            cursor: pointer;
+            font-size: 2.5rem;
+        }
+
+        /* header media query min 821px max 1240px starts */
+        /* accueil media query min 821px max 1240px starts */
+
+        .accueil {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        /* accueil media query min 821px max 1240px ends */
+        /* broderies media query min 821px max 1240px starts */
+        .broderies {
+            min-height: 100vh;
+            background-image: url('images/logocreadefabi.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 10% 0;
+            overflow: hidden;
+        }
+
+        .broderies .heading span {
+            font-size: 4rem;
+        }
+
+        .broderies h1 {
+            font-size: 4rem;
+        }
+
+        .broderies span {
+            color: var(--main-color);
+            text-transform: uppercase;
+        }
+
+
+        /* broderies media query min 821px max 1240px ends */
+        /* les professionnels media query starts */
+
+        /* les professionnels media query ends */
+        /* matériel canin media query starts */
+
+        /* matériel canin  media query ends */
+        /* clients media query starts */
+        .clients .heading span {
+            font-size: 4rem;
+        }
+
+        .clients h1 {
+            font-size: 4rem;
+        }
+
+        .logopart {
+            width: 10rem;
+            padding: 5px;
+        }
+
+        /* clients media query ends */
+
+        /* nous contacter media query starts */
+        .contact .heading span {
+            font-size: 2rem;
+        }
+
+        .contact h1 {
+            font-size: 2rem;
+        }
+
+        .contact .row .adresse h2 {
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .adresse .email a {
+            font-size: 2rem;
+            color: white;
+            color: white;
+            text-transform: lowercase;
+
+        }
+
+        #addr {
+            width: 80%;
+            height: 400px;
+        }
+
+        /* nous contacter media query ends */
+        .footer .links {
+            display: none;
+        }
     }
 
-    /* nous contacter media query ends */
-    .footer .links {
-        display: none;
-    }
-}
+    /* Media Query min 821px max 1240px ends */
+    /* Media Query min 1241px max 1700px starts */
 
-/* Media Query max 820px ends */
-/* Media Query min 821px max 1240px starts */
+    @media only screen and (min-width:1241px) and (max-width:1700px) {
 
 
-@media only screen and (min-width:821px) and (max-width:1240px) {
-    #menu-btn {
-        display: inline-block;
-    }
+        /* header media query starts */
+        .header {
+            padding: 1rem;
+        }
+
+        .header .navbar a {
+            margin: 0 2rem;
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .header .logo img {
+            height: 4rem;
+        }
 
 
-    /* header media query starts */
-
-    .header .navbar {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        background: #fff;
-        width: 30rem;
-        height: calc(100vh - 9.5rem);
-    }
-
-    .header .navbar.active {
-        right: 0;
-    }
-
-    .header .navbar a {
-        color: var(--black);
-        display: block;
-        margin: 1.5rem;
-        padding: .5rem;
-        font-size: 1.5rem;
-    }
+        /* header media query starts */
+        /* accueil media query starts */
 
 
-    .header .logo img {
-        width: 18rem;
-        height: auto;
-    }
+        /* accueil media query ends */
+        /* broderies media query starts */
+        .broderies {
+            min-height: 100vh;
+            background-image: url('images/logocreadefabi.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            padding: 10% 0;
+            overflow: hidden;
+        }
 
-    .header .social a {
-        padding: 0;
-        margin: 0;
-        height: 2.5rem;
-        width: 2.5rem;
-        line-height: 2.5rem;
-        font-size: 1rem;
-    }
+        .broderies .heading span {
+            font-size: 4rem;
+        }
 
-    .header .icons {
-        width: 10rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        color: #fff;
-        cursor: pointer;
-        font-size: 2.5rem;
+        .broderies h1 {
+            font-size: rem;
+        }
+
+        .broderies span {
+            color: var(--main-color);
+            text-transform: uppercase;
+        }
+
+
+        /* broderies media query ends */
     }
 
-    /* header media query starts */
-    /* accueil media query starts */
-
-    .accueil {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .accueil .content {
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .accueil .content .usvtitle {
-        display: none;
-    }
-
-    .accueil .content .labels {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 2rem 0;
-    }
-
-    .accueil .content img {
-        width: 80%;
-        height: auto;
-    }
-
-    .background {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .background img {
-        width: 60%;
-        height: 60%;
-    }
-
-    /* accueil media query ends */
-    /* broderies media query starts */
-    .broderies {
-        min-height: 100vh;
-        background-image: url('images/logocreadefabi.jpeg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: #fff;
-        padding: 10% 0;
-        overflow: hidden;
-    }
-
-    .broderies .heading span {
-        font-size: 4rem;
-    }
-
-    .broderies h1 {
-        font-size: 4rem;
-    }
-
-    .broderies span {
-        color: var(--main-color);
-        text-transform: uppercase;
-    }
-
-    .containerbroderies {
-        max-width: 100vw;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
-    .containerbroderies h2 {
-        text-align: center;
-        font-size: .5rem;
-        margin-bottom: 20px;
-    }
-
-    .containerbroderies table {
-        position: relative;
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies table,
-    th,
-    td {
-        font-size: 1rem;
-        border: 1px solid #fff;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies img {
-        max-width: 20px;
-        height: auto;
-    }
-
-    /* broderies media query ends */
-    /* les professionnels media query starts */
-    .lesequipes {
-        max-width: 100vw;
-    }
-
-    .lesequipes .heading span {
-        font-size: 4rem;
-    }
-
-    .lesequipes h1 {
-        font-size: 4rem;
-    }
-
-    .lesequipes .box-container .box h3 {
-        color: #fff;
-        font-size: 3.5rem;
-        padding: 1rem 0;
-    }
-
-    .lesequipes .box-container .box .division span {
-
-        font-size: 3rem;
-        font-weight: bold;
-    }
-
-
-    .lesequipes .box-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-        gap: 1.5rem;
-    }
-
-    .lesequipes .box-container .box {
-        text-align: center;
-        border: var(--border);
-
-    }
-
-    .lesequipes .box-container .box img {
-        width: 100%;
-        height: auto;
-
-    }
-
-    /* les professionnels media query ends */
     /* agenda media query starts */
-    .agenda {
-        max-width: 100%;
-    }
-
-    .agenda .heading span {
-        font-size: 4rem;
-    }
-
-    .agenda h1 {
-        font-size: 4rem;
-    }
-
-    .agenda .box-container .box .content .custom-padding {
-        color: #fff;
-        font-size: 3rem;
-    }
-
-
-    .agenda .box-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .agenda .box-container .box {
-        text-align: center;
-        border: var(--border);
-        margin: 2rem;
-    }
-
-    .custom-padding {
-        padding: 10px;
-    }
-
-    .agenda {
-        width: 100vw;
-    }
-
-    .agenda .box-container .box .content h3 {
-        font-size: 1.5rem;
-    }
-
-    .agenda .box-container .box .image {
-        padding: 2.5rem 0;
-    }
-
-    .agenda .box-container .box .image img {
-        width: 100%;
-        height: auto;
-    }
-
-    .agenda .box-container .box .content .division {
-        color: #fff;
-        font-size: 2.5rem;
-    }
-
-    .agenda .box-container .box .content .division span {
-        text-decoration: line-through;
-        font-weight: lighter;
-        font-size: 1.5rem;
-        color: white;
-    }
-
     /* agenda media query ends */
     /* clients media query starts */
-    .clients .heading span {
-        font-size: 4rem;
-    }
 
     .clients h1 {
         font-size: 4rem;
     }
 
     .logopart {
-        width: 10rem;
+        width: 15rem;
         padding: 5px;
     }
 
@@ -1123,11 +897,11 @@ section {
 
     /* nous contacter media query starts */
     .contact .heading span {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .contact h1 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     .contact .row .adresse h2 {
@@ -1139,351 +913,7 @@ section {
     }
 
     .adresse .email a {
-        font-size: 3rem;
-        color: white;
-        color: white;
-        text-transform: lowercase;
-
-    }
-
-    #addr {
-        width: 80%;
-        height: 400px;
-    }
-
-    /* nous contacter media query ends */
-    .footer .links {
-        display: none;
-    }
-}
-
-/* Media Query min 821px max 1240px ends */
-/* Media Query min 1241px max 1700px starts */
-
-@media only screen and (min-width:1241px) and (max-width:1700px) {
-
-
-    /* header media query starts */
-    .header {
-        padding: 1rem;
-    }
-
-    .header .navbar a {
-        margin: 0 2rem;
-        font-size: 1.2rem;
-        color: #fff;
-    }
-
-    .header .logo img {
-        height: 4rem;
-    }
-
-
-    /* header media query starts */
-    /* accueil media query starts */
-
-    .accueil .content .usvtitle {
-        display: none;
-    }
-
-    .accueil .content .labels {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 2rem 0;
-    }
-
-    .accueil .content img {
-        width: 80%;
-        height: auto;
-    }
-
-    .background {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .background img {
-        width: 100%;
-        height: 100%;
-    }
-
-    /* accueil media query ends */
-    /* broderies media query starts */
-    .broderies {
-        min-height: 100vh;
-        background-image: url('images/logocreadefabi.jpeg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: #fff;
-        padding: 10% 0;
-        overflow: hidden;
-    }
-
-    .broderies .heading span {
-        font-size: 4rem;
-    }
-
-    .broderies h1 {
-        font-size: rem;
-    }
-
-    .broderies span {
-        color: var(--main-color);
-        text-transform: uppercase;
-    }
-
-    .containerbroderies {
-        max-width: 100vw;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
-
-    .containerbroderies h2 {
-        text-align: center;
-        font-size: .5rem;
-        margin-bottom: 20px;
-    }
-
-    .containerbroderies table {
-        position: relative;
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies table,
-    th,
-    td {
-        font-size: 2rem;
-        border: 1px solid #fff;
-        border-collapse: collapse;
-    }
-
-    .containerbroderies img {
-        max-width: 20px;
-        height: auto;
-    }
-
-    /* broderies media query ends */
-}
-
-/* agenda media query starts */
-.agenda {
-    max-width: 100%;
-}
-
-.agenda .heading span {
-    font-size: 4rem;
-}
-
-.agenda h1 {
-    font-size: 4rem;
-}
-
-.agenda .box-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.agenda .box-container .box {
-    text-align: center;
-    border: var(--border);
-    margin: 2rem;
-}
-
-.custom-padding {
-    padding: 10px;
-}
-
-.agenda {
-    width: 100vw;
-}
-
-.agenda .box-container .box .content h3 {
-    font-size: 3rem;
-}
-
-.agenda .box-container .box .image {
-    padding: 2.5rem 0;
-}
-
-.agenda .box-container .box .image img {
-    width: 100%;
-    height: auto;
-}
-
-.agenda .box-container .box .content .division {
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-.agenda .box-container .box .content .division span {
-    text-decoration: line-through;
-    font-weight: lighter;
-    font-size: 1.5rem;
-    color: white;
-}
-
-/* agenda media query ends */
-/* clients media query starts */
-.clients .heading span {
-    font-size: 4rem;
-}
-
-.clients h1 {
-    font-size: 4rem;
-}
-
-.logopart {
-    width: 15rem;
-    padding: 5px;
-}
-
-/* clients media query ends */
-
-/* nous contacter media query starts */
-.contact .heading span {
-    font-size: 4rem;
-}
-
-.contact h1 {
-    font-size: 4rem;
-}
-
-.contact .row .adresse h2 {
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.adresse .email a {
-    font-size: 3rem;
-    color: white;
-    color: white;
-    text-transform: lowercase;
-}
-
-.contact .row .maillettesadresse h2 {
-    font-size: 2rem;
-}
-
-
-#addr {
-    width: 80%;
-    height: 400px;
-}
-
-#maillettes {
-    width: 80%;
-    height: 400px;
-}
-
-/* nous contacter media query ends */
-.footer .links {
-    display: none;
-}
-}
-
-/* Media Query min 1241px max 1700px ends */
-/* Media Query min 1701px starts */
-
-
-@media only screen and (min-width:1701px) {
-
-    /* agenda media query starts */
-    .agenda {
-        max-width: 100%;
-    }
-
-    .agenda .heading span {
-        font-size: 4rem;
-    }
-
-    .agenda h1 {
-        font-size: 4rem;
-    }
-
-    .agenda .box-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .agenda .box-container .box {
-        text-align: center;
-        border: var(--border);
-        margin: 2rem;
-    }
-
-    .custom-padding {
-        padding: 10px;
-    }
-
-    .agenda {
-        width: 70vw;
-        margin: auto;
-    }
-
-    .agenda .box-container .box .content h3 {
-        font-size: 3rem;
-    }
-
-    .agenda .box-container .box .image {
-        padding: 2.5rem 0;
-    }
-
-    .agenda .box-container .box .image img {
-        width: 80vw;
-        height: auto;
-    }
-
-    .agenda .box-container .box .content .division {
-        color: #fff;
-        font-size: 2.5rem;
-    }
-
-    .agenda .box-container .box .content .division span {
-        text-decoration: line-through;
-        font-weight: lighter;
         font-size: 1.5rem;
-        color: white;
-    }
-
-    /* agenda media query ends */
-    /* clients media query starts */
-    .clients .heading span {
-        font-size: 4rem;
-    }
-
-    .clients h1 {
-        font-size: 4rem;
-    }
-
-    .logopart {
-        width: 12rem;
-        padding: 5px;
-    }
-
-    /* clients media query ends */
-    /* contact media query starts */
-    .contact .row .adresse h2 {
-        font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .adresse .email a {
-        font-size: 3rem;
         color: white;
         color: white;
         text-transform: lowercase;
@@ -1493,9 +923,128 @@ section {
         font-size: 2rem;
     }
 
-    /* contact media query ends */
 
+    #addr {
+        width: 80%;
+        height: 400px;
+    }
+
+    #maillettes {
+        width: 80%;
+        height: 400px;
+    }
+
+    /* nous contacter media query ends */
+    .footer .links {
+        display: none;
+    }
+
+
+    /* Media Query min 1241px max 1700px ends */
+    /* Media Query min 1701px starts */
+
+
+    @media only screen and (min-width:1701px) {
+
+        /* agenda media query starts */
+        .agenda {
+            max-width: 100%;
+        }
+
+        .agenda .heading span {
+            font-size: 4rem;
+        }
+
+        .agenda h1 {
+            font-size: 4rem;
+        }
+
+        .agenda .box-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .agenda .box-container .box {
+            text-align: center;
+            border: var(--border);
+            margin: 2rem;
+        }
+
+        .custom-padding {
+            padding: 10px;
+        }
+
+        .agenda {
+            width: 70vw;
+            margin: auto;
+        }
+
+        .agenda .box-container .box .content h3 {
+            font-size: 3rem;
+        }
+
+        .agenda .box-container .box .image {
+            padding: 2.5rem 0;
+        }
+
+        .agenda .box-container .box .image img {
+            width: 80vw;
+            height: auto;
+        }
+
+        .agenda .box-container .box .content .division {
+            color: #fff;
+            font-size: 2.5rem;
+        }
+
+        .agenda .box-container .box .content .division span {
+            text-decoration: line-through;
+            font-weight: lighter;
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        /* agenda media query ends */
+        /* clients media query starts */
+        .clients .heading span {
+            font-size: 4rem;
+        }
+
+        .clients h1 {
+            font-size: 4rem;
+        }
+
+        .logopart {
+            width: 12rem;
+            padding: 5px;
+        }
+
+        /* clients media query ends */
+        /* contact media query starts */
+        .contact .row .adresse h2 {
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .adresse .email a {
+            font-size: 3rem;
+            color: white;
+            color: white;
+            text-transform: lowercase;
+        }
+
+        .contact .row .maillettesadresse h2 {
+            font-size: 2rem;
+        }
+
+        /* contact media query ends */
+
+
+    }
 
 }
-
-/* Media Query min 1701px ends */
